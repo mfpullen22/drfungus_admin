@@ -71,4 +71,5 @@ class DefaultFirebaseOptions {
     storageBucket: 'dr-fungus-app.appspot.com',
     iosBundleId: 'com.example.drfungusAdmin',
   );
+
 }
