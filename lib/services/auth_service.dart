@@ -76,7 +76,7 @@ class _AuthServiceState extends State<AuthService> {
             "credentials": _credentials,
             "organization": _organization,
             "email": _enteredEmail,
-            "projects": [],
+            "topics": [],
           });
 
           // Ensure the widget is still mounted before navigating
@@ -202,13 +202,14 @@ class _AuthServiceState extends State<AuthService> {
                             if (!_isLogin)
                               TextFormField(
                                 decoration: const InputDecoration(
-                                  labelText: "Unique Code",
+                                  labelText:
+                                      "Editor Code (This was e-mailed to you)",
                                 ),
                                 autocorrect: false,
                                 textCapitalization: TextCapitalization.none,
                                 validator: (value) {
                                   if (value == null || value.trim().isEmpty) {
-                                    return "Please enter your secure code.";
+                                    return "Please enter your unique editor code.";
                                   }
                                   return null;
                                 },

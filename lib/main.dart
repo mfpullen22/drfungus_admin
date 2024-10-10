@@ -27,6 +27,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: "Dr. Fungus Editor Dashboard",
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(

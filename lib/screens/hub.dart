@@ -53,7 +53,9 @@ class _HubScreenState extends State<HubScreen> {
                 Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: TextButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      _selectPage(const HomeScreen(), "Home");
+                    },
                     child: Text(
                       "Home",
                       style: TextStyle(
@@ -73,13 +75,13 @@ class _HubScreenState extends State<HubScreen> {
                   child: TextButton(
                     onPressed: () {},
                     child: Text(
-                      "Active Projects",
+                      "My Topics",
                       style: TextStyle(
                         fontSize: 18,
-                        fontWeight: _activePageTitle == "Active Projects"
+                        fontWeight: _activePageTitle == "My Topics"
                             ? FontWeight.bold
                             : FontWeight.normal,
-                        decoration: _activePageTitle == "Active Projects"
+                        decoration: _activePageTitle == "My Topics"
                             ? TextDecoration.underline
                             : null,
                       ),
@@ -91,13 +93,13 @@ class _HubScreenState extends State<HubScreen> {
                   child: TextButton(
                     onPressed: () {},
                     child: Text(
-                      "Completed Projects",
+                      "Available Topics",
                       style: TextStyle(
                         fontSize: 18,
-                        fontWeight: _activePageTitle == "Completed Projects"
+                        fontWeight: _activePageTitle == "Available Topics"
                             ? FontWeight.bold
                             : FontWeight.normal,
-                        decoration: _activePageTitle == "Completed Projects"
+                        decoration: _activePageTitle == "Available Topics"
                             ? TextDecoration.underline
                             : null,
                       ),
@@ -109,13 +111,13 @@ class _HubScreenState extends State<HubScreen> {
                   child: TextButton(
                     onPressed: () {},
                     child: Text(
-                      "Documents",
+                      "Submit a Case",
                       style: TextStyle(
                         fontSize: 18,
-                        fontWeight: _activePageTitle == "Documents"
+                        fontWeight: _activePageTitle == "Submit a Case"
                             ? FontWeight.bold
                             : FontWeight.normal,
-                        decoration: _activePageTitle == "Documents"
+                        decoration: _activePageTitle == "Submit a Case"
                             ? TextDecoration.underline
                             : null,
                       ),
@@ -127,13 +129,13 @@ class _HubScreenState extends State<HubScreen> {
                   child: TextButton(
                     onPressed: () {},
                     child: Text(
-                      "Add/Edit a Project",
+                      "Suggest a Topic",
                       style: TextStyle(
                         fontSize: 18,
-                        fontWeight: _activePageTitle == "Add/Edit a Project"
+                        fontWeight: _activePageTitle == "Suggest a Topic"
                             ? FontWeight.bold
                             : FontWeight.normal,
-                        decoration: _activePageTitle == "Add/Edit a Project"
+                        decoration: _activePageTitle == "Suggest a Topic"
                             ? TextDecoration.underline
                             : null,
                       ),
