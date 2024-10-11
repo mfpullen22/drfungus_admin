@@ -3,67 +3,450 @@
     "format": "JSON",
     "version": "1.1.0",
     "projectId": "dr-fungus-app",
-    "resourcePath": ["bugs"],
+    "resourcePath": [
+      "bugs"
+    ],
     "recursive": false,
     "creationTime": 1728592987,
     "app": "firefoo"
   },
   "data": {
-    "absidia101024":{},
-    "acremonium101024":{},
-    "acrophialophorafusispora101024":{},
-    "actinomadura101024":{},
-    "alternaria101024":{},
-    "apophysomyces101024":{},
-    "arthrographis101024":{},
-    "arthrographiskalrae101024":{},
-    "arthrinium101024":{},
-    "aspergillus101024":{},
-    "aspergillusflavus101024":{},
-    "aspergillusfumigatus101024":{},
-    "aspergillusglaucus101024":{},
-    "aspergillusgranulosus101024":{},
-    "aspergillusnidulans101024":{},
-    "aspergillusniger101024":{},
-    "aspergillusterreus101024":{},
-    "aspergillusustus101024":{},
-    "aspergillusversicolor101024":{},
-    "aureobasidium101024":{},
-    "basidiobolus101024":{},
-    "beauveria101024":{},
-    "bipolaris101024":{},
-    "bipolarisaustraliensis101024":{},
-    "bipolarishawaiiensis101024":{},
-    "blastomyces101024":{},
-    "blastoschizomyces101024":{},
-    "bortrytis101024":{},
-    "candida101024":{},
-    "candidaalbicans101024":{},
-    "candidadubliniensis101024":{},
-    "candidafamata101024":{},
-    "candidaglabrata101024":{},
-    "candidaguilliermondii101024":{},
-    "candidainconspicua101024":{},
-    "candidakefyr101024":{},
-    "candidakrusei101024":{},
-    "candidalambica101024":{},
-    "candidalipolytica101024":{},
-    "candidalusitaniae101024":{},
-    "candidaparapsilosis101024":{},
-    "candidatropicalis101024":{},
-    "chaetomium101024":{},
-    "chrysosporium101024":{},
-    "cladophialophora101024":{},
-    "cladosporium101024":{},
-    "coccidioides101024":{},
-    "conidiobolus101024":{},
-    "cryptococcusalbidus101024":{},
-    "cryptococcushumicolus101024":{},
+    "absidiaspecies101024": {
+      "editor": [],
+      "name": "Absidia species",
+      "name_lower": "absidia species",
+      "keywords": [
+        "absidia"
+      ]
+    },
+    "acremoniumspecies101024": {
+      "editor": [],
+      "name": "Acremonium species",
+      "name_lower": "acremonium species",
+      "keywords": [
+        "acremonium"
+      ]
+    },
+    "acrophialophorafusispora101024": {
+      "editor": [],
+      "name": "Acrophialophora fusispora",
+      "name_lower": "acrophialophora fusispora",
+      "keywords": [
+        "acrophialophora",
+        "fusispora"
+      ]
+    },
+    "actinomaduraspecies101024": {
+      "editor": [],
+      "name": "Actinomadura species",
+      "name_lower": "actinomadura species",
+      "keywords": [
+        "actinomadura"
+      ]
+    },
+    "alternariaspecies101024": {
+      "editor": [],
+      "name": "Alternaria species",
+      "name_lower": "alternaria species",
+      "keywords": [
+        "alternaria"
+      ]
+    },
+    "apophysomycesspecies101024": {
+      "editor": [],
+      "name": "Apophysomyces species",
+      "name_lower": "apophysomyces species",
+      "keywords": [
+        "apophysomyces"
+      ]
+    },
+    "arthriniumspecies101024": {
+      "editor": [],
+      "name": "Arthrinium species",
+      "name_lower": "arthrinium species",
+      "keywords": [
+        "arthrinium"
+      ]
+    },
+    "arthrographiskalrae101024": {
+      "editor": [],
+      "name": "Arthrographis kalrae",
+      "name_lower": "arthrographis kalrae",
+      "keywords": [
+        "arthrographis",
+        "kalrae"
+      ]
+    },
+    "arthrographisspecies101024": {
+      "editor": [],
+      "name": "Arthrographis species",
+      "name_lower": "arthrographis species",
+      "keywords": [
+        "arthrographis"
+      ]
+    },
+    "aspergillusflavus101024": {
+      "editor": [],
+      "name": "Aspergillus flavus",
+      "name_lower": "aspergillus flavus",
+      "keywords": [
+        "aspergillus",
+        "flavus"
+      ]
+    },
+    "aspergillusfumigatus101024": {
+      "editor": [],
+      "name": "Aspergillus fumigatus",
+      "name_lower": "aspergillus fumigatus",
+      "keywords": [
+        "aspergillus",
+        "fumigatus"
+      ]
+    },
+    "aspergillusglaucus101024": {
+      "editor": [],
+      "name": "Aspergillus glaucus",
+      "name_lower": "aspergillus glaucus",
+      "keywords": [
+        "aspergillus",
+        "glaucus"
+      ]
+    },
+    "aspergillusgranulosus101024": {
+      "editor": [],
+      "name": "Aspergillus granulosus",
+      "name_lower": "aspergillus granulosus",
+      "keywords": [
+        "aspergillus",
+        "granulosus"
+      ]
+    },
+    "aspergillusnidulans101024": {
+      "editor": [],
+      "name": "Aspergillus nidulans",
+      "name_lower": "aspergillus nidulans",
+      "keywords": [
+        "aspergillus",
+        "nidulans"
+      ]
+    },
+    "aspergillusniger101024": {
+      "editor": [],
+      "name": "Aspergillus niger",
+      "name_lower": "aspergillus niger",
+      "keywords": [
+        "aspergillus",
+        "niger"
+      ]
+    },
+    "aspergillusspecies101024": {
+      "editor": [],
+      "name": "Aspergillus species",
+      "name_lower": "aspergillus species",
+      "keywords": [
+        "aspergillus"
+      ]
+    },
+    "aspergillusterreus101024": {
+      "editor": [],
+      "name": "Aspergillus terreus",
+      "name_lower": "aspergillus terreus",
+      "keywords": [
+        "aspergillus",
+        "terreus"
+      ]
+    },
+    "aspergillusustus101024": {
+      "editor": [],
+      "name": "Aspergillus ustus",
+      "name_lower": "aspergillus ustus",
+      "keywords": [
+        "aspergillus",
+        "ustus"
+      ]
+    },
+    "aspergillusversicolor101024": {
+      "editor": [],
+      "name": "Aspergillus versicolor",
+      "name_lower": "aspergillus versicolor",
+      "keywords": [
+        "aspergillus",
+        "versicolor"
+      ]
+    },
+    "aureobasidiumspecies101024": {
+      "editor": [],
+      "name": "Aureobasidium species",
+      "name_lower": "aureobasidium species",
+      "keywords": [
+        "aureobasidium"
+      ]
+    },
+    "basidiobolusspecies101024": {
+      "editor": [],
+      "name": "Basidiobolus species",
+      "name_lower": "basidiobolus species",
+      "keywords": [
+        "basidiobolus"
+      ]
+    },
+    "beauveriaspecies101024": {
+      "editor": [],
+      "name": "Beauveria species",
+      "name_lower": "beauveria species",
+      "keywords": [
+        "beauveria"
+      ]
+    },
+    "bipolarisaustraliensis101024": {
+      "editor": [],
+      "name": "Bipolaris australiensis",
+      "name_lower": "bipolaris australiensis",
+      "keywords": [
+        "bipolaris",
+        "australiensis"
+      ]
+    },
+    "bipolarishawaiiensis101024": {
+      "editor": [],
+      "name": "Bipolaris hawaiiensis",
+      "name_lower": "bipolaris hawaiiensis",
+      "keywords": [
+        "bipolaris",
+        "hawaiiensis"
+      ]
+    },
+    "bipolarisspecies101024": {
+      "editor": [],
+      "name": "Bipolaris species",
+      "name_lower": "bipolaris species",
+      "keywords": [
+        "bipolaris"
+      ]
+    },
+    "blastomycesspecies101024": {
+      "editor": [],
+      "name": "Blastomyces species",
+      "name_lower": "blastomyces species",
+      "keywords": [
+        "blastomyces"
+      ]
+    },
+    "blastoschizomycesspecies101024": {
+      "editor": [],
+      "name": "Blastoschizomyces species",
+      "name_lower": "blastoschizomyces species",
+      "keywords": [
+        "blastoschizomyces"
+      ]
+    },
+    "bortrytisspecies101024": {
+      "editor": [],
+      "name": "Bortrytis species",
+      "name_lower": "bortrytis species",
+      "keywords": [
+        "bortrytis"
+      ]
+    },
+    "candidaalbicans101024": {
+      "editor": [],
+      "name": "Candida albicans",
+      "name_lower": "candida albicans",
+      "keywords": [
+        "candida",
+        "albicans"
+      ]
+    },
+    "candidadubliniensis101024": {
+      "editor": [],
+      "name": "Candida dubliniensis",
+      "name_lower": "candida dubliniensis",
+      "keywords": [
+        "candida",
+        "dubliniensis"
+      ]
+    },
+    "candidafamata101024": {
+      "editor": [],
+      "name": "Candida famata",
+      "name_lower": "candida famata",
+      "keywords": [
+        "candida",
+        "famata"
+      ]
+    },
+    "candidaglabrata101024": {
+      "editor": [],
+      "name": "Candida glabrata",
+      "name_lower": "candida glabrata",
+      "keywords": [
+        "candida",
+        "glabrata"
+      ]
+    },
+    "candidaguilliermondii101024": {
+      "editor": [],
+      "name": "Candida guilliermondii",
+      "name_lower": "candida guilliermondii",
+      "keywords": [
+        "candida",
+        "guilliermondii"
+      ]
+    },
+    "candidainconspicua101024": {
+      "editor": [],
+      "name": "Candida inconspicua",
+      "name_lower": "candida inconspicua",
+      "keywords": [
+        "candida",
+        "inconspicua"
+      ]
+    },
+    "candidakefyr101024": {
+      "editor": [],
+      "name": "Candida kefyr",
+      "name_lower": "candida kefyr",
+      "keywords": [
+        "candida",
+        "kefyr"
+      ]
+    },
+    "candidakrusei101024": {
+      "editor": [],
+      "name": "Candida krusei",
+      "name_lower": "candida krusei",
+      "keywords": [
+        "candida",
+        "krusei"
+      ]
+    },
+    "candidalambica101024": {
+      "editor": [],
+      "name": "Candida lambica",
+      "name_lower": "candida lambica",
+      "keywords": [
+        "candida",
+        "lambica"
+      ]
+    },
+    "candidalipolytica101024": {
+      "editor": [],
+      "name": "Candida lipolytica",
+      "name_lower": "candida lipolytica",
+      "keywords": [
+        "candida",
+        "lipolytica"
+      ]
+    },
+    "candidalusitaniaespecies101024": {
+      "editor": [],
+      "name": "Candida lusitaniae species",
+      "name_lower": "candida lusitaniae species",
+      "keywords": [
+        "candida",
+        "lusitaniae"
+      ]
+    },
+    "candidaparapsilosis101024": {
+      "editor": [],
+      "name": "Candida parapsilosis",
+      "name_lower": "candida parapsilosis",
+      "keywords": [
+        "candida",
+        "parapsilosis"
+      ]
+    },
+    "candidaspecies101024": {
+      "editor": [],
+      "name": "Candida species",
+      "name_lower": "candida species",
+      "keywords": [
+        "candida"
+      ]
+    },
+    "candidatropicalis101024": {
+      "editor": [],
+      "name": "Candida tropicalis",
+      "name_lower": "candida tropicalis",
+      "keywords": [
+        "candida",
+        "tropicalis"
+      ]
+    },
+    "chaetomiumspecies101024": {
+      "editor": [],
+      "name": "Chaetomium species",
+      "name_lower": "chaetomium species",
+      "keywords": [
+        "chaetomium"
+      ]
+    },
+    "chrysosporiumspecies101024": {
+      "editor": [],
+      "name": "Chrysosporium species",
+      "name_lower": "chrysosporium species",
+      "keywords": [
+        "chrysosporium"
+      ]
+    },
+    "cladophialophoraspecies101024": {
+      "editor": [],
+      "name": "Cladophialophora species",
+      "name_lower": "cladophialophora species",
+      "keywords": [
+        "cladophialophora"
+      ]
+    },
+    "cladosporiumspecies101024": {
+      "editor": [],
+      "name": "Cladosporium species",
+      "name_lower": "cladosporium species",
+      "keywords": [
+        "cladosporium"
+      ]
+    },
+    "coccidioidesspecies101024": {
+      "editor": [],
+      "name": "Coccidioides species",
+      "name_lower": "coccidioides species",
+      "keywords": [
+        "coccidioides"
+      ]
+    },
+    "conidiobolusspecies101024": {
+      "editor": [],
+      "name": "Conidiobolus species",
+      "name_lower": "conidiobolus species",
+      "keywords": [
+        "conidiobolus"
+      ]
+    },
+    "cryptococcusalbidus101024": {
+      "editor": [],
+      "name": "Cryptococcus albidus",
+      "name_lower": "cryptococcus albidus",
+      "keywords": [
+        "cryptococcus",
+        "albidus"
+      ]
+    },
+    "cryptococcushumicolus101024": {
+      "editor": [],
+      "name": "Cryptococcus humicolus",
+      "name_lower": "cryptococcus humicolus",
+      "keywords": [
+        "cryptococcus",
+        "humicolus"
+      ]
+    },
     "cryptococcus9324": {
+      "editor": [],
       "clinical": "/Cryptococcus neoformans/ is the causative agent of cryptococcosis. Given the neurotropic nature of the fungus, the most common clinical form of cryptococcosis is meningoencephalitis. The course of the infection is usually subacute or chronic. Cryptococcosis may also involve the skin, lungs, prostate gland, urinary tract, eyes, myocardium, bones, and joints.\\n\\nThe most commonly encountered predisposing factor for development of cryptococcosis is AIDS. Less commonly, organ transplant recipients or cancer patients receiving chemotherapeutics or long-term corticosteroid treatment may develop cryptococcosis.\\n\\nThe polysaccharide capsule and phenol oxidase enzyme of /Cryptococcus neoformans/, as well as its ability to grow at 37°C, are its major virulence factors. Recent data suggest that phospholipase enzymes may also play a role as one of the potential virulence factors. The infection commonly starts following inhalation of the yeasts. Phenol oxidase enzyme functions in production of melanin. The melanizing enzyme presumably prevents formation of toxic hydroxy radicals and thus protects the fungal cell from oxidative stress as well as the immune defense mechanisms of the host.",
       "description": "/Cryptococcus/ is an encapsulated yeast. Following its first identification in nature from peach juice samples, the major environmental sources of /Cryptococcus neoformans/ have been shown to be either soil contaminated with pigeon droppings (/Cryptococcus neoformans/ var. /neoformans/) or eucalyptus trees and decaying wood forming hollows in living trees (/Cryptococcus neoformans/ var. /gattii/). /Cryptococcus neoformans/ var. /gattii/ was also isolated from goats with pulmonary disease.",
       "features": "Colonies of /Cryptococcus neoformans/ are fast growing, soft, glistening to dull, smooth, usually mucoid, and cream to slightly pink or yellowish brown in color. The growth rate is somewhat slower than /Candida/ and usually takes 48 to 72 h. It grows well at 25°C as well as 37°C. Ability to grow at 37°C is one of the features that differentiates /Cryptococcus neoformans/ from other /Cryptococcus spp/. However, temperature-sensitive mutants that fail to grow at 37°C in vitro may also be observed. At 39-40°C, the growth of /Cryptococcus neoformans/ starts to slow down.\\n\\nOn cornmeal tween 80 agar, /Cryptococcus neoformans/ produces round, budding yeast cells. No true hyphae are visible. Pseudohyphae are usually absent or rudimentary. The capsule is best visible in India ink preparations. The thickness of the capsule is both strain-related and varies depending on the environmental conditions. Upon growth in 1% peptone solution, production of capsule is enhanced.\\n\\n/Cryptococcus neoformans/ should be differentiated from other clinically encountered yeasts, such as /Blastoschizomyces/, /Geotrichum/, /Malassezia/, /Rhodotorula/, /Saccharomyces/, and /Trichosporon/. Morphology on cornmeal tween 80 agar, capsule production, urease activity, ability to grow in presence of cycloheximide, growth pattern in Sabouraud broth, and fermentation assimilation profiles help in definitive identification of /Cryptococcus neoformans/.\\n\\nMicroscopically, globose to ovoid yeast cells that have a capsule, producing neither well-developed pseudohyphae nor true hyphae are typical for /Cryptococcus neoformans/. /Cryptococcus neoformans/ differs from /Candida/ by not forming well-developed pseudohyphae. The lack of arthroconidia differentiates it from /Trichosporon/ and /Geotrichum/, the two genera that produce abundant arthroconidia.\\n\\nBiochemically, the members of the genus /Cryptococcus/ are unable to ferment sugars, but do assimilate inositol and produce urease. Carotenoid pigment production is extremely variable. /Cryptococcus neoformans/ produces phenoloxidase enzyme that results in production of melanin and thus a brown to black discoloration of the colony when it is grown on caffeic acid agar or bird seed agar. /Cryptococcus/ differs from /Rhodotorula/ by assimilating inositol, and from /Candida glabrata/ by assimilating inositol and being urease positive.",
-      "keywords": ["cryptococcus"],
+      "keywords": [
+        "cryptococcus"
+      ],
       "name": "Cryptococcus species",
       "name_lower": "cryptococcus species",
       "precautions": "No special precautions other than general laboratory precautions are required.",
@@ -142,40 +525,247 @@
         "phylum": "Basidiomycota",
         "subphylum": "Basidimycotina"
       },
-      "trials": [""],
+      "trials": [
+        ""
+      ],
       "__collections__": {}
     },
-    "cryptococcuslaurentii101024":{},
-    "cryptococcusneoformans101024":{},
-    "cunninghamella101024":{},
-    "curvularia101024":{},
-    "dermatophytes101024":{},
-    "emmonsia101024":{},
-    "epicoccum101024":{},
-    "epidermophyton101024":{},
-    "exophiala101024":{},
-    "exserohilum101024":{},
-    "exserohilumlongirostratum101024":{},
-    "exserohilumrostratum101024":{},
-    "fonsecaea101024":{},
-    "fusarium101024":{},
-    "fusariumchlamydosporum101024":{},
-    "fusariumdimerum101024":{},
-    "fusariummoniliforme101024":{},
-    "fusariumnapiforme101024":{},
-    "fusariumoxysporum101024":{},
-    "fusariumproliferatum101024":{},
-    "fusariumsemitectum101024":{},
-    "fusariumsolani101024":{},
-    "geotrichum101024":{},
-    "gliocladium101024":{},
-    "graphium101024":{},
-    "helminthosporium101024":{},
+    "cryptococcuslaurentii101024": {
+      "editor": [],
+      "name": "Cryptococcus laurentii",
+      "name_lower": "cryptococcus laurentii",
+      "keywords": [
+        "cryptococcus",
+        "laurentii"
+      ]
+    },
+    "cryptococcusneoformans101024": {
+      "editor": [],
+      "name": "Cryptococcus neoformans",
+      "name_lower": "cryptococcus neoformans",
+      "keywords": [
+        "cryptococcus",
+        "neoformans"
+      ]
+    },
+    "cryptococcusspecies101024": {
+      "editor": [],
+      "name": "Cryptococcus species",
+      "name_lower": "cryptococcus species",
+      "keywords": [
+        "cryptococcus"
+      ]
+    },
+    "cunninghamellaspecies101024": {
+      "editor": [],
+      "name": "Cunninghamella species",
+      "name_lower": "cunninghamella species",
+      "keywords": [
+        "cunninghamella"
+      ]
+    },
+    "curvulariaspecies101024": {
+      "editor": [],
+      "name": "Curvularia species",
+      "name_lower": "curvularia species",
+      "keywords": [
+        "curvularia"
+      ]
+    },
+    "dermatophytes101024": {
+      "editor": [],
+      "name": "Dermatophytes",
+      "name_lower": "dermatophytes",
+      "keywords": [
+        "dermatophytes"
+      ]
+    },
+    "emmonsia101024": {
+      "editor": [],
+      "name": "Emmonsia",
+      "name_lower": "emmonsia",
+      "keywords": [
+        "emmonsia"
+      ]
+    },
+    "epicoccum101024": {
+      "editor": [],
+      "name": "Epicoccum",
+      "name_lower": "epicoccum",
+      "keywords": [
+        "epicoccum"
+      ]
+    },
+    "epidermophytonspecies101024": {
+      "editor": [],
+      "name": "Epidermophyton species",
+      "name_lower": "epidermophyton species",
+      "keywords": [
+        "epidermophyton"
+      ]
+    },
+    "exophialaspecies101024": {
+      "editor": [],
+      "name": "Exophiala species",
+      "name_lower": "exophiala species",
+      "keywords": [
+        "exophiala"
+      ]
+    },
+    "exserohilumlongirostratum101024": {
+      "editor": [],
+      "name": "Exserohilum longirostratum",
+      "name_lower": "exserohilum longirostratum",
+      "keywords": [
+        "exserohilum",
+        "longirostratum"
+      ]
+    },
+    "exserohilumrostratum101024": {
+      "editor": [],
+      "name": "Exserohilum rostratum",
+      "name_lower": "exserohilum rostratum",
+      "keywords": [
+        "exserohilum",
+        "rostratum"
+      ]
+    },
+    "exserohilumspecies101024": {
+      "editor": [],
+      "name": "Exserohilum species",
+      "name_lower": "exserohilum species",
+      "keywords": [
+        "exserohilum"
+      ]
+    },
+    "fonsecaeaspecies101024": {
+      "editor": [],
+      "name": "Fonsecaea species",
+      "name_lower": "fonsecaea species",
+      "keywords": [
+        "fonsecaea"
+      ]
+    },
+    "fusariumchlamydosporum101024": {
+      "editor": [],
+      "name": "Fusarium chlamydosporum",
+      "name_lower": "fusarium chlamydosporum",
+      "keywords": [
+        "fusarium",
+        "chlamydosporum"
+      ]
+    },
+    "fusariumdimerum101024": {
+      "editor": [],
+      "name": "Fusarium dimerum",
+      "name_lower": "fusarium dimerum",
+      "keywords": [
+        "fusarium",
+        "dimerum"
+      ]
+    },
+    "fusariummoniliforme101024": {
+      "editor": [],
+      "name": "Fusarium moniliforme",
+      "name_lower": "fusarium moniliforme",
+      "keywords": [
+        "fusarium",
+        "moniliforme"
+      ]
+    },
+    "fusariumnapiforme101024": {
+      "editor": [],
+      "name": "Fusarium napiforme",
+      "name_lower": "fusarium napiforme",
+      "keywords": [
+        "fusarium",
+        "napiforme"
+      ]
+    },
+    "fusariumoxysporum101024": {
+      "editor": [],
+      "name": "Fusarium oxysporum",
+      "name_lower": "fusarium oxysporum",
+      "keywords": [
+        "fusarium",
+        "oxysporum"
+      ]
+    },
+    "fusariumproliferatum101024": {
+      "editor": [],
+      "name": "Fusarium proliferatum",
+      "name_lower": "fusarium proliferatum",
+      "keywords": [
+        "fusarium",
+        "proliferatum"
+      ]
+    },
+    "fusariumsemitectum101024": {
+      "editor": [],
+      "name": "Fusarium semitectum",
+      "name_lower": "fusarium semitectum",
+      "keywords": [
+        "fusarium",
+        "semitectum"
+      ]
+    },
+    "fusariumsolani101024": {
+      "editor": [],
+      "name": "Fusarium solani",
+      "name_lower": "fusarium solani",
+      "keywords": [
+        "fusarium",
+        "solani"
+      ]
+    },
+    "fusariumspecies101024": {
+      "editor": [],
+      "name": "Fusarium species",
+      "name_lower": "fusarium species",
+      "keywords": [
+        "fusarium"
+      ]
+    },
+    "geotrichumspecies101024": {
+      "editor": [],
+      "name": "Geotrichum species",
+      "name_lower": "geotrichum species",
+      "keywords": [
+        "geotrichum"
+      ]
+    },
+    "gliocladiumspecies101024": {
+      "editor": [],
+      "name": "Gliocladium species",
+      "name_lower": "gliocladium species",
+      "keywords": [
+        "gliocladium"
+      ]
+    },
+    "graphiumspecies101024": {
+      "editor": [],
+      "name": "Graphium species",
+      "name_lower": "graphium species",
+      "keywords": [
+        "graphium"
+      ]
+    },
+    "helminthosporiumspecies101024": {
+      "editor": [],
+      "name": "Helminthosporium species",
+      "name_lower": "helminthosporium species",
+      "keywords": [
+        "helminthosporium"
+      ]
+    },
     "histoplasma9324": {
+      "editor": [],
       "clinical": "/Histoplasma capsulatum/ is the causative agent of a true systemic (endemic) mycosis called histoplasmosis. The spectrum of the disease is wide, varying from an acute benign pulmonary infection to a chronic pulmonary or fatal disseminated disease. Following acquisition of the conidia by inhalation, the lungs are primarily involved. In cases of dissemination of /Histoplasma capsulatum/ var. /capsulatum/ infection, the reticuloendothelial system (RES) is most frequently involved. The fungus resides intracellularly in RES cells. /Histoplasma capsulatum/ may also rarely involve the thyroid glands and may be isolated in fungemia. Unlike var. /capsulatum/, var. /duboisii/ rarely involves the lungs but commonly involves the bones and skin. Var. /duboisii/ is the causative agent of African histoplasmosis.\\n\\nGiven the true systemic nature of histoplasmosis, otherwise healthy individuals are affected. However, dissemination and a fatal course are more common in the immunocompromised and elderly. Chronic cavitary histoplasmosis is most commonly observed in individuals with underlying pulmonary disease.",
       "description": "/Histoplasma/ is a thermally dimorphic fungus found in nature. Soil contaminated with bird droppings or excrements of bats is the common natural habitat for Histoplasma. Although it is claimed to exist worldwide, tropical areas are where this fungus is more frequently encountered. It is endemic in the Tennessee-Ohio-Mississippi river basins.",
       "features": "*Histopathology*\\nIntracellular budding yeast cells are typical. It should be differentiated from the other intracellular dimorphic fungus, /Penicillium marneffei/. The yeast cells of /P. marneffei/ divide by fission, but not by budding. /Histoplasma capsulatum/ predominates at the central portion of the lesions. Thus, the selection of the tissue section to be excised for histopathologic and mycologic examination is of particular significance.\\n\\n*Macroscopic Features*\\nBeing a thermally dimorphic fungus, /Histoplasma capsulatum/ grows in mold form at 25°C, and in yeast form at 37°C. Below are the macroscopic characteristics at varying temperatures and for both varieties.\\n\\n_At 25°C_\\nColonies are slow growing and granular to cottony in appearance. The color is white initially and usually becomes buff brown with age. The colonies are not sensitive to cycloheximide in the culture media. From the reverse, a yellow or yellowish orange color may be observed. While these features are best observed on Sabouraud dextrose agar (SDA), brain heart infusion agar (BHIA) enhances growth more efficiently.\\n\\n_At 37°C_\\nCreamy, slowly growing, moist and yeast-like colonies are formed. This phase is observed in infected tissues and in vitro on enriched media, such as BHIA containing 5-10% blood.\\n\\n*Microscopic Features*\\n_At 25°C_\\nHyphae are septate and hyaline. /Histoplasma capsulatum/ produces hyphae-like conidiophores which arise at right angles to the parent hyphae. It has both macro- and microconidia. Macroconidia are tuberculate, thick-walled, round, unicellular, hyaline, large and often have fingerlike projections on the surface. These macroconidia are also referred to as tuberculochlamydospores or macroaleurioconidia. Microconidia (microaleurioconidia) are unicellular, hyaline and round, with a smooth or rough wall.\\n\\n_At 37°C_\\nNarrow-based, ovoid, budding yeast cells are formed. Yeasts of var. capsulatum are smaller than (2-4 µm) those of var. duboisii (12-15 µm).\\n\\nFor definitive identification of the fungus, yeast-to-mould conversion should be demonstrated. Antigen detection in clinical samples offers a rapid way for diagnosis of histoplasmosis.",
-      "keywords": ["histoplasma"],
+      "keywords": [
+        "histoplasma"
+      ],
       "name": "Histoplasma species",
       "name_lower": "histoplasma species",
       "precautions": "Isolates of /Histoplasma/ must be handled with caution in a biological safety cabinet.",
@@ -213,93 +803,712 @@
         "phylum": "Ascomycota",
         "subphylum": "Ascomycotina"
       },
-      "trials": ["Abcg4smgcgJRsoOCqUJn"],
+      "trials": [
+        "Abcg4smgcgJRsoOCqUJn"
+      ],
       "__collections__": {}
     },
-    "hortaeawerneckii101024":{},
-    "lacazia101024":{},
-    "leptosphaeria101024":{},
-    "madurella101024":{},
-    "malassezia101024":{},
-    "malasseziafurfur101024":{},
-    "malasseziaglobosa101024":{},
-    "malasseziaobtusa101024":{},
-    "malasseziapachydermatis101024":{},
-    "malasseziarestricta101024":{},
-    "malasseziaslooffiae101024":{},
-    "malasseziasympodialis101024":{},
-    "malbranchea101024":{},
-    "microascus101024":{},
-    "microascustrigonosporus101024":{},
-    "microascuscinereus101024":{},
-    "microascusranginii101024":{},
-    "microsporum101024":{},
-    "microsporumaudouinii101024":{},
-    "microsporumcanis101024":{},
-    "microsporumcookei101024":{},
-    "microsporumdistorum101024":{},
-    "microsporumferrugineum101024":{},
-    "microsporumgallinae101024":{},
-    "microsporumgypseum101024":{},
-    "microsproumannum101024":{},
-    "microsprouvanbreuseghemii101024":{},
-    "mucor101024":{},
-    "neotestudina101024":{},
-    "nigrospora101024":{},
-    "nocardia101024":{},
-    "nocardiopsis101024":{},
-    "othercandida101024":{},
-    "paecilomyces101024":{},
-    "paracoccidioides101024":{},
-    "penicillium101024":{},
-    "phaeococcomyces101024":{},
-    "phialophora101024":{},
-    "phoma101024":{},
-    "phytophthoraromorum101024":{},
-    "pichia101024":{},
-    "piedraia101024":{},
-    "pneumocystis101024":{},
-    "pseudallescheria101024":{},
-    "pyrenochaeta101024":{},
-    "rhizomucor101024":{},
-    "rhizopus101024":{},
-    "rhizopusarrhizus101024":{},
-    "rhizopusmicrosporusvarmicrosporus101024":{},
-    "rhizopusmicrosporusvarrhizopodiformis101024":{},
-    "rhizopusschipperae101024":{},
-    "rhodotorula101024":{},
-    "rhodotorulamucilaginosa101024":{},
-    "rhodotorulaminuta101024":{},
-    "saccharomyces101024":{},
-    "scedosporium101024":{},
-    "scopulariopsis101024":{},
-    "scopulariopsisacremonium101024":{},
-    "scopulariopsisasperula101024":{},
-    "scopulariopsisbrumptii101024":{},
-    "scopulariopsisbrevicaulis101024":{},
-    "sepedonium101024":{},
-    "sporobolomyces101024":{},
-    "sporothrix101024":{},
-    "spoptrichum101024":{},
-    "stachybotrys101024":{},
-    "stemphylium101024":{},
-    "streptomyces101024":{},
-    "syncephalastrum101024":{},
-    "trichoderma101024":{},
-    "trichophyton101024":{},
-    "trichosporon101024":{},
-    "trichosporonasteroides101024":{},
-    "trichosporoncutaneum101024":{},
-    "trichosporoninkin101024":{},
-    "trichosporonloubieri101024":{},
-    "trichosporonmucoides101024":{},
-    "trichosporonovoides101024":{},
-    "trichosporonasahii101024":{},
-    "trichothecium101024":{},
-    "ulocladium101024":{},
-    "ustilago101024":{},
-    "verticillium101024":{},
-    "wangiella101024":{},
-    "zygomycetes101024":{}   
+    "hortaeawerneckii101024": {
+      "editor": [],
+      "name": "Hortaea werneckii",
+      "name_lower": "hortaea werneckii",
+      "keywords": [
+        "hortaea",
+        "werneckii"
+      ]
+    },
+    "lacazia101024": {
+      "editor": [],
+      "name": "Lacazia",
+      "name_lower": "lacazia",
+      "keywords": [
+        "lacazia"
+      ]
+    },
+    "leptosphaeriaspecies101024": {
+      "editor": [],
+      "name": "Leptosphaeria species",
+      "name_lower": "leptosphaeria species",
+      "keywords": [
+        "leptosphaeria"
+      ]
+    },
+    "madurellaspecies101024": {
+      "editor": [],
+      "name": "Madurella species",
+      "name_lower": "madurella species",
+      "keywords": [
+        "madurella"
+      ]
+    },
+    "malasseziafurfur101024": {
+      "editor": [],
+      "name": "Malassezia furfur",
+      "name_lower": "malassezia furfur",
+      "keywords": [
+        "malassezia",
+        "furfur"
+      ]
+    },
+    "malasseziaglobosa101024": {
+      "editor": [],
+      "name": "Malassezia globosa",
+      "name_lower": "malassezia globosa",
+      "keywords": [
+        "malassezia",
+        "globosa"
+      ]
+    },
+    "malasseziaobtusa101024": {
+      "editor": [],
+      "name": "Malassezia obtusa",
+      "name_lower": "malassezia obtusa",
+      "keywords": [
+        "malassezia",
+        "obtusa"
+      ]
+    },
+    "malasseziapachydermatis101024": {
+      "editor": [],
+      "name": "Malassezia pachydermatis",
+      "name_lower": "malassezia pachydermatis",
+      "keywords": [
+        "malassezia",
+        "pachydermatis"
+      ]
+    },
+    "malasseziarestricta101024": {
+      "editor": [],
+      "name": "Malassezia restricta",
+      "name_lower": "malassezia restricta",
+      "keywords": [
+        "malassezia",
+        "restricta"
+      ]
+    },
+    "malasseziaslooffiae101024": {
+      "editor": [],
+      "name": "Malassezia slooffiae",
+      "name_lower": "malassezia slooffiae",
+      "keywords": [
+        "malassezia",
+        "slooffiae"
+      ]
+    },
+    "malasseziaspecies101024": {
+      "editor": [],
+      "name": "Malassezia species",
+      "name_lower": "malassezia species",
+      "keywords": [
+        "malassezia"
+      ]
+    },
+    "malasseziasympodialis101024": {
+      "editor": [],
+      "name": "Malassezia sympodialis",
+      "name_lower": "malassezia sympodialis",
+      "keywords": [
+        "malassezia",
+        "sympodialis"
+      ]
+    },
+    "malbrancheaspecies101024": {
+      "editor": [],
+      "name": "Malbranchea species",
+      "name_lower": "malbranchea species",
+      "keywords": [
+        "malbranchea"
+      ]
+    },
+    "microascuscinereus101024": {
+      "editor": [],
+      "name": "Microascus cinereus",
+      "name_lower": "microascus cinereus",
+      "keywords": [
+        "microascus",
+        "cinereus"
+      ]
+    },
+    "microascusmanginii101024": {
+      "editor": [],
+      "name": "Microascus manginii",
+      "name_lower": "microascus manginii",
+      "keywords": [
+        "microascus",
+        "manginii"
+      ]
+    },
+    "microascusspecies101024": {
+      "editor": [],
+      "name": "Microascus species",
+      "name_lower": "microascus species",
+      "keywords": [
+        "microascus"
+      ]
+    },
+    "microascustrigonosporus101024": {
+      "editor": [],
+      "name": "Microascus trigonosporus",
+      "name_lower": "microascus trigonosporus",
+      "keywords": [
+        "microascus",
+        "trigonosporus"
+      ]
+    },
+    "microsporumaudouinii101024": {
+      "editor": [],
+      "name": "Microsporum audouinii",
+      "name_lower": "microsporum audouinii",
+      "keywords": [
+        "microsporum",
+        "audouinii"
+      ]
+    },
+    "microsporumcanis101024": {
+      "editor": [],
+      "name": "Microsporum canis",
+      "name_lower": "microsporum canis",
+      "keywords": [
+        "microsporum",
+        "canis"
+      ]
+    },
+    "microsporumcookei101024": {
+      "editor": [],
+      "name": "Microsporum cookei",
+      "name_lower": "microsporum cookei",
+      "keywords": [
+        "microsporum",
+        "cookei"
+      ]
+    },
+    "microsporumdistorum101024": {
+      "editor": [],
+      "name": "Microsporum distorum",
+      "name_lower": "microsporum distorum",
+      "keywords": [
+        "microsporum",
+        "distorum"
+      ]
+    },
+    "microsporumferrugineum101024": {
+      "editor": [],
+      "name": "Microsporum ferrugineum",
+      "name_lower": "microsporum ferrugineum",
+      "keywords": [
+        "microsporum",
+        "ferrugineum"
+      ]
+    },
+    "microsporumgallinae101024": {
+      "editor": [],
+      "name": "Microsporum gallinae",
+      "name_lower": "microsporum gallinae",
+      "keywords": [
+        "microsporum",
+        "gallinae"
+      ]
+    },
+    "microsporumgypseum101024": {
+      "editor": [],
+      "name": "Microsporum gypseum",
+      "name_lower": "microsporum gypseum",
+      "keywords": [
+        "microsporum",
+        "gypseum"
+      ]
+    },
+    "microsporumspecies101024": {
+      "editor": [],
+      "name": "Microsporum species",
+      "name_lower": "microsporum species",
+      "keywords": [
+        "microsporum"
+      ]
+    },
+    "microsproumnanum101024": {
+      "editor": [],
+      "name": "Microsproum nanum",
+      "name_lower": "microsproum nanum",
+      "keywords": [
+        "microsproum",
+        "nanum"
+      ]
+    },
+    "microsproumvanbreuseghemii101024": {
+      "editor": [],
+      "name": "Microsproum vanbreuseghemii",
+      "name_lower": "microsproum vanbreuseghemii",
+      "keywords": [
+        "microsproum",
+        "vanbreuseghemii"
+      ]
+    },
+    "mucorspecies101024": {
+      "editor": [],
+      "name": "Mucor species",
+      "name_lower": "mucor species",
+      "keywords": [
+        "mucor"
+      ]
+    },
+    "neotestudinaspecies101024": {
+      "editor": [],
+      "name": "Neotestudina species",
+      "name_lower": "neotestudina species",
+      "keywords": [
+        "neotestudina"
+      ]
+    },
+    "nigrosporaspecies101024": {
+      "editor": [],
+      "name": "Nigrospora species",
+      "name_lower": "nigrospora species",
+      "keywords": [
+        "nigrospora"
+      ]
+    },
+    "nocardiaspecies101024": {
+      "editor": [],
+      "name": "Nocardia species",
+      "name_lower": "nocardia species",
+      "keywords": [
+        "nocardia"
+      ]
+    },
+    "nocardiopsisspecies101024": {
+      "editor": [],
+      "name": "Nocardiopsis species",
+      "name_lower": "nocardiopsis species",
+      "keywords": [
+        "nocardiopsis"
+      ]
+    },
+    "othercandidaspecies101024": {
+      "editor": [],
+      "name": "Other Candida species",
+      "name_lower": "other candida species",
+      "keywords": [
+        "other",
+        "candida"
+      ]
+    },
+    "paecilomycesspecies101024": {
+      "editor": [],
+      "name": "Paecilomyces species",
+      "name_lower": "paecilomyces species",
+      "keywords": [
+        "paecilomyces"
+      ]
+    },
+    "paracoccidioidesspecies101024": {
+      "editor": [],
+      "name": "Paracoccidioides species",
+      "name_lower": "paracoccidioides species",
+      "keywords": [
+        "paracoccidioides"
+      ]
+    },
+    "penicilliumspecies101024": {
+      "editor": [],
+      "name": "Penicillium species",
+      "name_lower": "penicillium species",
+      "keywords": [
+        "penicillium"
+      ]
+    },
+    "phaeococcomycesspecies101024": {
+      "editor": [],
+      "name": "Phaeococcomyces species",
+      "name_lower": "phaeococcomyces species",
+      "keywords": [
+        "phaeococcomyces"
+      ]
+    },
+    "phialophoraspecies101024": {
+      "editor": [],
+      "name": "Phialophora species",
+      "name_lower": "phialophora species",
+      "keywords": [
+        "phialophora"
+      ]
+    },
+    "phomaspecies101024": {
+      "editor": [],
+      "name": "Phoma species",
+      "name_lower": "phoma species",
+      "keywords": [
+        "phoma"
+      ]
+    },
+    "phytophthoraramorum101024": {
+      "editor": [],
+      "name": "Phytophthora ramorum",
+      "name_lower": "phytophthora ramorum",
+      "keywords": [
+        "phytophthora",
+        "ramorum"
+      ]
+    },
+    "pichiaspecies101024": {
+      "editor": [],
+      "name": "Pichia species",
+      "name_lower": "pichia species",
+      "keywords": [
+        "pichia"
+      ]
+    },
+    "piedraiaspecies101024": {
+      "editor": [],
+      "name": "Piedraia species",
+      "name_lower": "piedraia species",
+      "keywords": [
+        "piedraia"
+      ]
+    },
+    "pneumocystis101024": {
+      "editor": [],
+      "name": "Pneumocystis",
+      "name_lower": "pneumocystis",
+      "keywords": [
+        "pneumocystis"
+      ]
+    },
+    "pseudallescheriaspecies101024": {
+      "editor": [],
+      "name": "Pseudallescheria species",
+      "name_lower": "pseudallescheria species",
+      "keywords": [
+        "pseudallescheria"
+      ]
+    },
+    "pyrenochaetaspecies101024": {
+      "editor": [],
+      "name": "Pyrenochaeta species",
+      "name_lower": "pyrenochaeta species",
+      "keywords": [
+        "pyrenochaeta"
+      ]
+    },
+    "rhizomucorspecies101024": {
+      "editor": [],
+      "name": "Rhizomucor species",
+      "name_lower": "rhizomucor species",
+      "keywords": [
+        "rhizomucor"
+      ]
+    },
+    "rhizopusarrhizus101024": {
+      "editor": [],
+      "name": "Rhizopus arrhizus",
+      "name_lower": "rhizopus arrhizus",
+      "keywords": [
+        "rhizopus",
+        "arrhizus"
+      ]
+    },
+    "rhizopusmicrosporusvarrhizopodiformis101024": {
+      "editor": [],
+      "name": "Rhizopus microsporus",
+      "name_lower": "rhizopus microsporus ",
+      "keywords": [
+        "rhizopus",
+        "microsporus"
+      ]
+    },
+    "rhizopusschipperae101024": {
+      "editor": [],
+      "name": "Rhizopus schipperae",
+      "name_lower": "rhizopus schipperae",
+      "keywords": [
+        "rhizopus",
+        "schipperae"
+      ]
+    },
+    "rhizopusspecies101024": {
+      "editor": [],
+      "name": "Rhizopus species",
+      "name_lower": "rhizopus species",
+      "keywords": [
+        "rhizopus"
+      ]
+    },
+    "rhodotorulaminuta101024": {
+      "editor": [],
+      "name": "Rhodotorula minuta",
+      "name_lower": "rhodotorula minuta",
+      "keywords": [
+        "rhodotorula",
+        "minuta"
+      ]
+    },
+    "rhodotorulamucilaginosa101024": {
+      "editor": [],
+      "name": "Rhodotorula mucilaginosa",
+      "name_lower": "rhodotorula mucilaginosa",
+      "keywords": [
+        "rhodotorula",
+        "mucilaginosa"
+      ]
+    },
+    "rhodotorulaspecies101024": {
+      "editor": [],
+      "name": "Rhodotorula species",
+      "name_lower": "rhodotorula species",
+      "keywords": [
+        "rhodotorula"
+      ]
+    },
+    "saccharomycesspecies101024": {
+      "editor": [],
+      "name": "Saccharomyces species",
+      "name_lower": "saccharomyces species",
+      "keywords": [
+        "saccharomyces"
+      ]
+    },
+    "scedosporiumspecies101024": {
+      "editor": [],
+      "name": "Scedosporium species",
+      "name_lower": "scedosporium species",
+      "keywords": [
+        "scedosporium"
+      ]
+    },
+    "scopulariopsisacremonium101024": {
+      "editor": [],
+      "name": "Scopulariopsis acremonium",
+      "name_lower": "scopulariopsis acremonium",
+      "keywords": [
+        "scopulariopsis",
+        "acremonium"
+      ]
+    },
+    "scopulariopsisasperula101024": {
+      "editor": [],
+      "name": "Scopulariopsis asperula",
+      "name_lower": "scopulariopsis asperula",
+      "keywords": [
+        "scopulariopsis",
+        "asperula"
+      ]
+    },
+    "scopulariopsisbrevicaulis101024": {
+      "editor": [],
+      "name": "Scopulariopsis brevicaulis",
+      "name_lower": "scopulariopsis brevicaulis",
+      "keywords": [
+        "scopulariopsis",
+        "brevicaulis"
+      ]
+    },
+    "scopulariopsisbrumptii101024": {
+      "editor": [],
+      "name": "Scopulariopsis brumptii",
+      "name_lower": "scopulariopsis brumptii",
+      "keywords": [
+        "scopulariopsis",
+        "brumptii"
+      ]
+    },
+    "sepedoniumspecies101024": {
+      "editor": [],
+      "name": "Sepedonium species",
+      "name_lower": "sepedonium species",
+      "keywords": [
+        "sepedonium"
+      ]
+    },
+    "spoptrichumspecies101024": {
+      "editor": [],
+      "name": "Spoptrichum species",
+      "name_lower": "spoptrichum species",
+      "keywords": [
+        "spoptrichum"
+      ]
+    },
+    "sporobolomycesspecies101024": {
+      "editor": [],
+      "name": "Sporobolomyces species",
+      "name_lower": "sporobolomyces species",
+      "keywords": [
+        "sporobolomyces"
+      ]
+    },
+    "sporothrixspecies101024": {
+      "editor": [],
+      "name": "Sporothrix species",
+      "name_lower": "sporothrix species",
+      "keywords": [
+        "sporothrix"
+      ]
+    },
+    "stachybotrys101024": {
+      "editor": [],
+      "name": "Stachybotrys",
+      "name_lower": "stachybotrys",
+      "keywords": [
+        "stachybotrys"
+      ]
+    },
+    "stemphyliumspecies101024": {
+      "editor": [],
+      "name": "Stemphylium species",
+      "name_lower": "stemphylium species",
+      "keywords": [
+        "stemphylium"
+      ]
+    },
+    "streptomycesspecies101024": {
+      "editor": [],
+      "name": "Streptomyces species",
+      "name_lower": "streptomyces species",
+      "keywords": [
+        "streptomyces"
+      ]
+    },
+    "syncephalastrumspecies101024": {
+      "editor": [],
+      "name": "Syncephalastrum species",
+      "name_lower": "syncephalastrum species",
+      "keywords": [
+        "syncephalastrum"
+      ]
+    },
+    "trichodermaspecies101024": {
+      "editor": [],
+      "name": "Trichoderma species",
+      "name_lower": "trichoderma species",
+      "keywords": [
+        "trichoderma"
+      ]
+    },
+    "trichophytonspecies101024": {
+      "editor": [],
+      "name": "Trichophyton species",
+      "name_lower": "trichophyton species",
+      "keywords": [
+        "trichophyton"
+      ]
+    },
+    "trichosporonasahii101024": {
+      "editor": [],
+      "name": "Trichosporon asahii",
+      "name_lower": "trichosporon asahii",
+      "keywords": [
+        "trichosporon",
+        "asahii"
+      ]
+    },
+    "trichosporonasteroides101024": {
+      "editor": [],
+      "name": "Trichosporon asteroides",
+      "name_lower": "trichosporon asteroides",
+      "keywords": [
+        "trichosporon",
+        "asteroides"
+      ]
+    },
+    "trichosporoncutaneum101024": {
+      "editor": [],
+      "name": "Trichosporon cutaneum",
+      "name_lower": "trichosporon cutaneum",
+      "keywords": [
+        "trichosporon",
+        "cutaneum"
+      ]
+    },
+    "trichosporoninkin101024": {
+      "editor": [],
+      "name": "Trichosporon inkin",
+      "name_lower": "trichosporon inkin",
+      "keywords": [
+        "trichosporon",
+        "inkin"
+      ]
+    },
+    "trichosporonloubieri101024": {
+      "editor": [],
+      "name": "Trichosporon loubieri",
+      "name_lower": "trichosporon loubieri",
+      "keywords": [
+        "trichosporon",
+        "loubieri"
+      ]
+    },
+    "trichosporonmucoides101024": {
+      "editor": [],
+      "name": "Trichosporon mucoides",
+      "name_lower": "trichosporon mucoides",
+      "keywords": [
+        "trichosporon",
+        "mucoides"
+      ]
+    },
+    "trichosporonovoides101024": {
+      "editor": [],
+      "name": "Trichosporon ovoides",
+      "name_lower": "trichosporon ovoides",
+      "keywords": [
+        "trichosporon",
+        "ovoides"
+      ]
+    },
+    "trichosporonspecies101024": {
+      "editor": [],
+      "name": "Trichosporon species",
+      "name_lower": "trichosporon species",
+      "keywords": [
+        "trichosporon"
+      ]
+    },
+    "trichotheciumspecies101024": {
+      "editor": [],
+      "name": "Trichothecium species",
+      "name_lower": "trichothecium species",
+      "keywords": [
+        "trichothecium"
+      ]
+    },
+    "ulocladiumspecies101024": {
+      "editor": [],
+      "name": "Ulocladium species",
+      "name_lower": "ulocladium species",
+      "keywords": [
+        "ulocladium"
+      ]
+    },
+    "ustilagospecies101024": {
+      "editor": [],
+      "name": "Ustilago species",
+      "name_lower": "ustilago species",
+      "keywords": [
+        "ustilago"
+      ]
+    },
+    "verticilliumspecies101024": {
+      "editor": [],
+      "name": "Verticillium species",
+      "name_lower": "verticillium species",
+      "keywords": [
+        "verticillium"
+      ]
+    },
+    "wangiellaspecies101024": {
+      "editor": [],
+      "name": "Wangiella species",
+      "name_lower": "wangiella species",
+      "keywords": [
+        "wangiella"
+      ]
+    },
+    "zygomycetesspecies101024": {
+      "editor": [],
+      "name": "Zygomycetes species",
+      "name_lower": "zygomycetes species",
+      "keywords": [
+        "zygomycetes"
+      ]
+    }
   }
 }
