@@ -1,4 +1,5 @@
 import "package:drfungus_admin/screens/home.dart";
+import "package:drfungus_admin/screens/test_data_entry.dart";
 import "package:firebase_auth/firebase_auth.dart";
 import "package:flutter/material.dart";
 
@@ -136,6 +137,27 @@ class _HubScreenState extends State<HubScreen> {
                             ? FontWeight.bold
                             : FontWeight.normal,
                         decoration: _activePageTitle == "Suggest a Topic"
+                            ? TextDecoration.underline
+                            : null,
+                      ),
+                    ),
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: TextButton(
+                    onPressed: () {
+                      _selectPage(
+                          const TestDataEntryScreen(), "Test Data Entry");
+                    },
+                    child: Text(
+                      "Test Data Entry",
+                      style: TextStyle(
+                        fontSize: 18,
+                        fontWeight: _activePageTitle == "Test Data Entry"
+                            ? FontWeight.bold
+                            : FontWeight.normal,
+                        decoration: _activePageTitle == "Test Data Entry"
                             ? TextDecoration.underline
                             : null,
                       ),
