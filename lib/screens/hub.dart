@@ -1,3 +1,4 @@
+import "package:drfungus_admin/screens/available_topics.dart";
 import "package:drfungus_admin/screens/home.dart";
 import "package:drfungus_admin/screens/test_data_entry.dart";
 import "package:firebase_auth/firebase_auth.dart";
@@ -92,7 +93,10 @@ class _HubScreenState extends State<HubScreen> {
                 Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: TextButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      _selectPage(
+                          const AvailableTopicsScreen(), "Available Topics");
+                    },
                     child: Text(
                       "Available Topics",
                       style: TextStyle(
